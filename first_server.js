@@ -6,5 +6,5 @@ const server = http.createServer((req,res) => {
 
 const port = 3000;
 server.listen(port,() => {
-  console.log(`Server started successfully on address http:\\localhost:${port}`);
+  console.log(`Server started successfully on address http://localhost:${port}`);
 });
