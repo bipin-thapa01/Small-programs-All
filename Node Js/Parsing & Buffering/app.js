@@ -1,9 +1,9 @@
 const http = require('http');
-const request = require('./calculator');
+const reference= require('./calculator');
 
-const server = http.createServer(request);
+const server = http.createServer(reference);
 
-const port = 30001;
+const port = 3000;
 server.listen(port,()=>{
-  console.log(`Server successfully started at http://localhost:${port}`);
-});
+  console.log(`Server started at http://localhost:${port}`);
+})
