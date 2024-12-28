@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	int a[] = {1,2,3,4,5,6,7,8,9,10}, key, l = 0, n = 10, mid;
+	int a[] = {1,2,3,4,5,6,7,8,9,10}, key, l = 0, n = 9, mid;
 	cout << "Enter the key: ";
 	cin >> key;
 	while(l<=n){
