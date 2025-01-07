@@ -12,7 +12,7 @@ int main(){
 	getline(cin,a);
 	for(int i = a.length()-1; i >= 0; --i){
 		if(a[i] >=48 && a[i]<= 57){
-			s.push(a[i] - '0');
+			s.push(a[i] - '0'); 
 		}
 		else{
 			n1 = s.top();
